@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:warenb/components/custom_nav_bar.dart';
+import 'package:warenb/constants.dart';
 import 'package:warenb/screens/splash/splash_screen.dart';
 
 void main() {
@@ -14,7 +14,8 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       title: 'Flutter Demo',
       theme: ThemeData(
-        primarySwatch: Colors.blue,
+        primarySwatch: Colors.grey,
+        scaffoldBackgroundColor: bgColor
       ),
       home: const SplashScreen(),
     );

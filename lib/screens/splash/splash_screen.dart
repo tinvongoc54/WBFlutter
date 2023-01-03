@@ -45,14 +45,17 @@ class _SplashScreenState extends State<SplashScreen> {
           //     style: TextStyle(fontSize: 30.0, fontWeight: FontWeight.w900),
           //   ),
           // ),
-          AnimatedOpacity(
-            opacity: _animate ? 1 : 0,
-            duration: const Duration(milliseconds: 1500),
-            child: SizedBox(
-                width: 100,
-                height: 100,
-                child: Image.asset('assets/images/image_wb_logo.png')),
-          ),
+          AnimatedAlign(
+              alignment: Alignment.center,
+              duration: const Duration(milliseconds: 1500),
+              child: AnimatedOpacity(
+                opacity: _animate ? 1 : 0,
+                duration: const Duration(milliseconds: 1500),
+                child: SizedBox(
+                    width: 150,
+                    height: 150,
+                    child: Image.asset('assets/images/image_wb_logo.png')),
+              ))
         ],
       ),
     );
@@ -68,7 +71,7 @@ class _SplashScreenState extends State<SplashScreen> {
         context,
         MaterialPageRoute(
             builder: (context) => HomeScreen(
-                  title: 'WarenB',
+                  title: 'W A R E N B',
                 )));
   }
 }
