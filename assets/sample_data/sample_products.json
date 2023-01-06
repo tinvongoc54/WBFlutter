@@ -1,0 +1,124 @@
+{
+  "products": [
+    {
+      "id": "1",
+      "dishImage": "assets/food_pics/food_salmon.jpg",
+      "name": "Smoked Salmon",
+      "price": 390000,
+      "isFavourite": false,
+      "source": "https://pixabay.com/photos/salmon-dish-food-meal-fish-518032/",
+      "information": [
+        "Course: Main Course",
+        "Price: Cheap",
+        "Cuisine: Meditarrian",
+        "Skill Level: Beginner",
+        "Prep Time 5 minutes"
+      ]
+    },
+    {
+      "id": "2",
+      "dishImage": "assets/food_pics/food_cupcake.jpg",
+      "name": "Chocolate Cup Cake",
+      "price": 450000,
+      "isFavourite": false,
+      "source": "https://pixabay.com/photos/cupcakes-dessert-frosting-food-690040/",
+      "information": [
+        "Course: Dessert",
+        "Price: Somewhat cheap",
+        "Cuisine: American",
+        "Skill Level: Amateur",
+        "Prep Time 10 minutes"
+      ]
+    },
+    {
+      "id": "3",
+      "dishImage": "assets/food_pics/food_pancake.jpg",
+      "name": "Rasberry Maple Pancake",
+      "price": 520000,
+      "isFavourite": false,
+      "source": "https://pixabay.com/photos/pancakes-maple-syrup-sweet-food-2291908/",
+      "information": [
+        "Course: Breakfast",
+        "Price: Cheap",
+        "Cuisine: American",
+        "Skill Level: Beginner",
+        "Prep Time 5 minutes"
+      ]
+    },
+    {
+      "id": "4",
+      "dishImage": "assets/food_pics/food_spaghetti.jpg",
+      "name": "Seafood Spaghetti ádflskdfja sdlkfjáldkf jáldkfjádlkfsd ",
+      "price": 380000,
+      "isFavourite": false,
+      "source": "https://pixabay.com/photos/spaghetti-drunken-line-food-pasta-960978/",
+      "information": [
+        "Course: Main Course",
+        "Price: Expensive",
+        "Cuisine: Italian",
+        "Skill Level: Beginner",
+        "Prep Time 5 minutes"
+      ]
+    },
+    {
+      "id": "5",
+      "dishImage": "assets/food_pics/food_friedrice.jpg",
+      "name": "Thai Fried Rice",
+      "price": 320000,
+      "isFavourite": false,
+      "source": "https://pixabay.com/photos/fried-rice-thai-food-thai-cuisine-3023040/",
+      "information": [
+        "Course: Main Course",
+        "Price: Cheap",
+        "Cuisine: Thai",
+        "Skill Level: Beginner",
+        "Prep Time 5 minutes"
+      ]
+    },
+    {
+      "id": "6",
+      "dishImage": "assets/food_pics/food_curry.jpg",
+      "name": "Thai Green Curry",
+      "price": 350000,
+      "isFavourite": false,
+      "source": "https://pixabay.com/photos/green-curry-thai-food-3604721/",
+      "information": [
+        "Course: Main Course",
+        "Price: Medium",
+        "Cuisine: Thai",
+        "Skill Level: Amateur",
+        "Prep Time 10 minutes"
+      ]
+    },
+    {
+      "id": "7",
+      "dishImage": "assets/food_pics/food_pho.jpg",
+      "name": "Vietnamese Pho",
+      "price": 360000,
+      "isFavourite": false,
+      "source": "https://pixabay.com/photos/soup-pho-soup-vietnam-vietnamese-5250765/",
+      "information": [
+        "Course: Main Course",
+        "Price: Cheap",
+        "Cuisine: Vietnamese",
+        "Skill Level: Hard",
+        "Prep Time 20 minutes"
+      ]
+    },
+    {
+      "id": "8",
+      "dishImage": "assets/food_pics/food_burger.jpg",
+      "name": "Bacon Cheese Burger",
+      "price": 150000,
+      "isFavourite": false,
+      "source": "https://pixabay.com/photos/burger-fast-food-hamburger-731298/",
+      "information": [
+        "Course: Main Course",
+        "Price: Cheap",
+        "Cuisine: American",
+        "Skill Level: Easy",
+        "Prep Time 5 minutes"
+      ]
+    }
+  ]
+}

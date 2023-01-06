@@ -4,6 +4,8 @@ import 'package:warenb/components/custom_nav_bar.dart';
 import 'package:warenb/screens/home/components/categories_cloth.dart';
 import 'package:warenb/screens/home/components/form_search.dart';
 import 'package:warenb/constants.dart';
+import 'package:warenb/screens/products/product_screen.dart';
+import 'components/products_grid_view.dart';
 
 class HomeScreen extends StatefulWidget {
   const HomeScreen({super.key, required this.title});
@@ -15,6 +17,9 @@ class HomeScreen extends StatefulWidget {
 }
 
 class _HomeScreenState extends State<HomeScreen> {
+  static List<Widget> tabs = <Widget>[
+    ProductScreen()
+  ];
   @override
   Widget build(BuildContext context) {
     SystemChrome.setSystemUIOverlayStyle(
@@ -35,7 +40,7 @@ class _HomeScreenState extends State<HomeScreen> {
               SizedBox(height: defaultPadding / 2),
               CategoriesCloth(),
               SizedBox(height: defaultPadding / 2),
-
+              ProductsGridView(),
             ],
           ),
         ),
